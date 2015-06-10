@@ -1,0 +1,18 @@
+body
+{
+    margin: 0 auto;
+    text-align: center;
+}
+#game
+{
+    margin: 0 auto;
+}
+#game_scene
+{
+    margin: 0 auto;
+}
+#game_canvas
+{
+    margin: 0 auto;
+    border: 1px solid black;
+}

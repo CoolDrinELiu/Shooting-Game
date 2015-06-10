@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <section id="game">
+        <section id="game_scene">
+            <canvas width="600" height="450" id="game_canvas">
+                    你的浏览器不支持canvas
+            </canvas>
+        </section>
+        <section id="win_scene"></section>
+        <section id="lose_scene"></section>
+    </section>
+    <section id="audios">
+    <audio id="backAudio" loop="loop">
+        <source src="media/background.ogg">
+    </audio>
+
+        <audio id="fireAudio">
+            <source src="media/Shoot.wav">
+        </audio>
+
+
+    </section>
+    <script src="js/Utils.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/KeyControl.js"></script>
+    <script src="js/Enemy.js"></script>
+    <script src="js/Bullets.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Background.js"></script>
+    <script src="js/Director.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
